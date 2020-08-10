@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    height: 60px;
+    color: white;
+    align-items: center;
+}
+header .geek-name-logo {
+    width: 170px;
+    height: 28px;
+    margin-left: 150px;
+}
+header ul{
+    display:flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-right: 150px;
+}
+header li {
+    list-style: none;
+    font-size: 24px; 
+    font-family: 'Comic Sans MS';
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+.geek_name{
+    width: 170px;
+    height: 28px;
+}
+
+/*main*/
+/* section top-view */
+
+.top-view{
+    text-align: center;
+    padding: 120px 0 60px 0;
+    background-color: pink;
+    margin-bottom: 50px;
+}
+.top-message{
+    color: white;
+}
+.top-message h1 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.inner-button {
+    background-color: #4a78ff;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 rgba(0,0,0,.3);
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 64px;
+}
+.upper {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.lower {
+    font-size: 20px;
+}
+.inner-button:hover{
+    transform: translateY(4px);
+    box-shadow: none;
+    background-color: rgb(51, 98, 240);
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    padding: 70px 0;
+}
+
+/* section about */
+
+#about {
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+#about .inner-contents .title{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 45px;
+    margin-bottom: 16px;
+}
+#about .inner-contents .sub-message{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.85;
+    line-height: 27px;
+}
+.blue{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.67px;
+    line-height: 28.8px;
+}
+.three{
+    color: #4a78ff;
+}
+.three-reasons {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 34px;
+    margin: 100px 0 34px;
+}
+#about li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.texts {
+    text-align:left;
+    margin:0 0  20px 30px;
+}
+.texts h3{
+    color: #4a78ff;
+    font-size: 28px;
+    font-family: 'Comic Sans MS';
+    font-style: oblique;
+}
+span.ratio{
+    background-color: #ffd206;
+    font-size: 24px;
+}
+span.blue{
+    font-weight: bold;
+}
+.reason {
+    display: flex;
+}
+.wanna-know-more{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.85px;
+    line-height: 27px;
+    text-align: center;
+    margin: 16px 0;
+}
+.texts p {
+    font-size: 14px;
+}
+.texts h4 {
+    margin: 10px 0;
+}
+.image img {
+    width:230px;
+}
+
+/* section course */
+
+#course h2{
+    text-align: center;
+    font-family: "Gen Jyuu Gothic P";
+    margin-top: 60px;
+    font-family: 'Comic Sans MS';
+}
+#course ul {
+    display: flex;
+    width: 40%;
+    margin: 20px auto 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#course li{
+    width: 35%;
+    height: 120px;
+    margin: 20px 0;
+    list-style: none;
+    padding: 20px 30px;
+}
+.inner-button{
+    text-align: center;
+}
+
+li.ios {
+    background-color: #FFF3ED;
+}
+li.unity {
+    background-color: #EFF3FF;
+}
+li.web{
+    background-color: #FFEFF1;
+}
+li.webex{
+    background-color: rgba(255,255,204,0.8);
+}
+li.ios h3 {
+    color:#ff8546;
+}
+li.unity h3 {
+    color:#4a78ff;
+}
+li.web h3 {
+    color: #ff3d55;
+}
+li.webex h3 {
+    color:#e4c309;
+}
+#course ul li h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    margin: 0 0 12px;
+    text-align: center;
+}
+#course ul li p{
+    height: 70px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.notation{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+/* footer */
+
+footer{
+    background-color: #4a78ff;
+    color: white;
+    text-align: center;
+    padding: 32px 0 64px;
+}
+.come-with-friends{
+    line-height: 27px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.mtg-button{
+    background-color: white;
+    color: rgb(0, 123, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 rgba(0,0,0,.3);
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 64px;
+    margin: 12px 0 28px;
+}
+.mtg-button:hover{
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.blue_name{
+    height: 30px;
+    width: 186px;
+}
+.follow-us{
+    font-family: Sriracha;
+    font-size: 24px;
+    margin: 20px 0 16px;
+}
+.sns-group{
+    letter-spacing: 15px;
+}
+.sns-group a{
+    text-decoration: none;
+}
+.facebook{
+    width: 60px;
+    height: 64.8px;
+}
+.twitter{
+    width: 60px;
+    height: 64.8px;
+}
+.insta{
+    width: 60px;
+    height: 64.8px;
+}
+.email{
+    letter-spacing: 1px;
+    margin: 52px auto 12px;
+}
+.copy-right{
+    letter-spacing: 1px;
+}
+
+
